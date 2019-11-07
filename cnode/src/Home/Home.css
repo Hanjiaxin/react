@@ -68,7 +68,8 @@
     color: #333;
 }
 .link_title:hover{
-    color: #888;
+   text-decoration: underline;
+   color: black;
 }
 .btn{
     padding: 4px 12px;

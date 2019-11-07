@@ -6,7 +6,7 @@ import Api from "./container/Api";
 import Start from "./container/Start";
 import Home from "./container/Home";
 import Content from './Home/Content';
-import Signin from './container/Signin';
+import Register from './container/Register';
 export default class App extends Component {
     render() {
         return (
@@ -23,11 +23,12 @@ export default class App extends Component {
                             <Route path='/api' component={Api}/>
                             <Route path='/about' component={About}/>
                             <Route  path='/content/:id' component={Content}/>
-                            <Route path='/signin' component={Signin}/>
+                            <Route path='/register' component={Register}/>
                         </Switch>
                     </div>
                     <div className='right'>
-                        <h3 style={{margin:'130px 30px 0'}}>Node.js专业中文社区</h3>
+                        <h3 style={{margin:'130px 10px 0'}}>乘舟侧畔千帆过,病树前头万木春</h3>
+	                    <h3 style={{margin:'130px 10px 0'}}>乘风破浪会有时，直挂云帆济沧海</h3>
                     </div>
                    
                 </div>

@@ -13,7 +13,7 @@ export default function Header(){
                     <Link to='/api'>API</Link>
                     <Link to='/about'>关于</Link>
                     <Link>注册</Link>
-                    <Link to='/signin'>登录</Link>
+                    <Link to='/register'>登录</Link>
                 </div>
             </header>
         </div>

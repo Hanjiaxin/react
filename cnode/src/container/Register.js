@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-export default class Signin extends Component {
+export default class Register extends Component {
     render() {
         return (
             <div>
@@ -13,7 +13,7 @@ export default class Signin extends Component {
                         </ul>
                     </div>
                     <div className='login_inner'>
-                        <form className='form-horizontal' action='/signin' method='post'>
+                        <form className='form-horizontal' action='/register' method='post'>
                             <div className='control-group'>
                                 <label className='control-label'>用户名</label>
                                 <div className='controls'>
